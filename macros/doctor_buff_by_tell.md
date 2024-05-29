@@ -1,7 +1,7 @@
-# Doctor: Buff by tell
+# Macro to Buff by tell
 
-## Introduction
-Built on the shoulders of wookies. This macro will doctor buff on tell. Needs improvement for eating bivoli and havla. 
+## Description
+This macro will doctor buff on tell. Needs improvement for eating bivoli and havla. 
 
 ## Copy & Paste
 Star Wars Galaxies allows you to bind copy and paste in `Options > Controls > Keymap > chat (tab)` you can bind keys to `Chat Edit Copy, Chat Edit Cut, Chat Edit Paste`. If you bind a key for `Chat Edit Paste` you can copy the alias's and macro's below and use your keybind to paste them into the Star Wars Galaxies client (both the in-game macro editor, and the chat window).
@@ -30,7 +30,7 @@ Starts macros running.
 /tell <name> Clearing target.;
 /pause 1;
 /tar Bacta;
-/macro docResponse;
+/m docResponse;
 ```
 
 ### docAdvertise
@@ -39,7 +39,7 @@ Respect the server spam rules and don't advertise more often than every 3 minute
  ```
 /Recite Now buffing. Please see my bio for buffing instructions.;
 /pause 180;
-/macro docAdvertise;
+/m docAdvertise;
 ```
 
 ### docResponse
@@ -60,7 +60,7 @@ Checks to see if someone sent a tell. Replace`<name>` with your character's name
 /pause 1;
 /tell <name> Clearing target.;
 /pause 10;
-/macro docResponse;
+/m docResponse;
 ```
 
 ### docBuff
@@ -159,9 +159,8 @@ Bivoli increses your Wound Treatment Skill Mod. No change is necessary to benefi
 Havla increases your Wound Treatment Speed Skill Mod. The above macro does not yet have optimised timings for Havla consumption. You will need to adjust the timings in `docBuff` between all the `healEnhance` calls to take advantage. 
 
 ### References
-
-* [Mistress Aerea Buff by tell macro](https://www.swgemu.com/forums/showthread.php?t=128123)
-* [nunzio99 Who are your tippers](https://www.swgemu.com/forums/showthread.php?t=205263)
-* [Astin Larry's Doctor Macro](https://www.swgemu.com/forums/showthread.php?t=214152)
-* [Xtura Seska's Doctor Guide: Buffing for Free (for tips)](https://www.swgemu.com/forums/showthread.php?t=47785)
-* [NaTaS Buff by Tell Macro](https://revelationonline.net/forums/viewtopic.php?t=126)
+- [Mistress Aerea Buff by tell macro](https://www.swgemu.com/forums/showthread.php?t=128123)
+- [nunzio99 Who are your tippers](https://www.swgemu.com/forums/showthread.php?t=205263)
+- [Astin Larry's Doctor Macro](https://www.swgemu.com/forums/showthread.php?t=214152)
+- [Xtura Seska's Doctor Guide: Buffing for Free (for tips)](https://www.swgemu.com/forums/showthread.php?t=47785)
+- [NaTaS Buff by Tell Macro](https://revelationonline.net/forums/viewtopic.php?t=126)

@@ -1,9 +1,12 @@
-# Crafting Macro
+# Macro to Cycle Through Crafting Screens
 
-## Useage
+## Description
+
+## Macro: crafting
 
 This will fire a crafting tool in the first slot on the toolbar `toolbarSlot00`. It will then load the schematic found in slot 3 (this will vary based on your professions, what type of crafting tool you are using, and whether you have set the UI to auto-sort your schematics).
-```
+
+```text
 /ui action toolbarSlot00;
 /selectDraftSchematic 3;
 /pause 5;
@@ -14,3 +17,5 @@ This will fire a crafting tool in the first slot on the toolbar `toolbarSlot00`.
 /createPrototype practice no item;
 /pause 2;
 ```
+
+#### References

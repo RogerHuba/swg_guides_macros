@@ -1,4 +1,4 @@
-# PVP 
+# PVP Macros
 
 ## Introduction
 Built on the shoulders of wookies. 
@@ -154,3 +154,5 @@ These macro's assume you have the standard Doctor `4x3x` as part of your templat
 /forceCureDisease self;
 /stopBleeding self;
 ```
+
+#### References

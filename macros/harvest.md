@@ -1,14 +1,14 @@
-# Macro Name: Harvest
+# Macroto Harvest Creature Resources
 
 ## Description
 This macro will harvest the corpse you currently have selected, followed by any corpse around you. If you get the message `target is out of range for this action` there is likely another person killing mobs nearby. In this case just click the nearest corpse to you and it should continue harvesting.
 
-### Macro: justHarvest
+### Macro: harvest
 ```
 /harvest;
 /harvest corpse;
 /pause 1;
-/macro justHarvest;
+/m harvest;
 ```
 
 ## Variants
@@ -20,7 +20,7 @@ You can replace `harvest` and `harvest corpse` with `harvest <resource type>` an
 /harvest meat;
 /harvest corpse meat;
 /pause 1;
-/macro justHarvestMeat;
+/m justHarvestMeat;
 ```
 
 ### harvest
@@ -31,5 +31,7 @@ The old style macro, will only harvest what's clicked. Replace `<resource type>`
 /harvest <resource type>;
 /harvest;
 /pause 1;
-/macro harvest;
+/m harvest;
 ```
+#### References
+TODO: Add a reference

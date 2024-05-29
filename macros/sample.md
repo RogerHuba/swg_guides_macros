@@ -1,4 +1,4 @@
-# Macro Name: sample1 | sample2
+# Macro For Sampling AFK or Sampling AK
 
 ## Description
 This is the sampling macro I used (two variants, the first will ignore surveying mini game the second won't - the 2nd is more useful when crafting whilst surveying as it won't `/ui action defaultButton;` which can sometimes close your crafting window)
@@ -19,7 +19,7 @@ If your action secondaries are 400+ you won't need to sit, which can stop your c
 /sit; 
 /pause 25; 
 /ui action defaultButton; 
-/macro sample1;
+/m sample1;
 ```
 
 ### Macro: sample2
@@ -33,5 +33,8 @@ If your action secondaries are 400+ you won't need to sit, which can stop your c
 /pause 1; 
 /sit; 
 /pause 25; 
-/macro sample2;
+/m sample2;
 ```
+
+#### References
+TODO: Add a reference

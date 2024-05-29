@@ -1,5 +1,6 @@
+# Junk Dealer Locations
 
-
+## Table
 | Name              | Implemented | Planet    | X             | Y        | Buying  | Notes                                                                    |
 |-------------------|-------------|-----------|---------------|----------|---------|--------------------------------------------------------------------------|
 | junk_dealer       | Y (760)     | Corellia  | 6840          |    -5630 | Finary  | Bela Vistal between cantina and hotel. Finary                            |
@@ -39,6 +40,6 @@
 | junk_dealer       | Y           | Tatooine  |        3905.3 |   2362.9 | Generic |                                                                          |
 
 
-References
+### References
 
 - [Junk Dealers (Google Doc)](https://docs.google.com/spreadsheets/d/1S3zJ0d3frWbbz0rpM_YzlnR2hHganW0dz8IqOwz15po/edit#gid=0)

@@ -7,3 +7,5 @@
   * [SWGEmuEdu - Ep.198 - Sytner's Satellite Maps Mod (Mobyus1)](https://www.youtube.com/watch?v=dJsXZKwU0rw)
 * [Clear Skies](https://www.swgemu.com/forums/showthread.php?t=106359)
   * [EQ Sanctum Mirror](https://www.eqsanctum.com/files/file/19-clear-skies-weather-replacement/)
+
+TODO: Add additional Mods

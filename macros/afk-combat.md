@@ -1,13 +1,9 @@
-# Macro Name: AFK Combat
+# Macro for AFK Combat
 
-## Introduction
-Built on the shoulders of wookies. 
-
-## Macros
-
+## Description
 This macro will find a target every 15 seconds and throw an intimidate at it. It is not intended for at keyboard combat automation. It's intended use is afk farming static spawns outside of majour NPC cities. No buffs required, but reasonable armour minisuit probably mandatory. 
 
-### afkstatic
+### Macro: afkstatic
 ```
 /stand;
 /ui action untarget;
@@ -17,10 +13,10 @@ This macro will find a target every 15 seconds and throw an intimidate at it. It
 /pause 1;
 /attack;
 /pause 12;
-/macro afkstatic;
+/m afkstatic;
 ```
 
-### afk
+### Macroafk
 
 This macro will find the closest target every 2 seconds. 
 

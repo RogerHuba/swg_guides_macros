@@ -1,3 +1,9 @@
+# Alias for Speed Travel
+
+## Description
+TODO: How to goes here.  Add later.
+
+```text
 aa /bo tra;
 bes2the /purchaseticket tatooine Bestine_Starport naboo Theed_Spaceport single;
 bes2ker /purchaseticket tatooine Bestine_Starport naboo Keren_Starport single;
@@ -351,3 +357,7 @@ tal2exo /purchaseticket talus Talus_Imperial_Outpost talus Exordium single;
 exo2dea /purchaseticket talus Exordium talus Dearic_Starport single;
 exo2nas /purchaseticket talus Exordium talus Nashal_Starport single;
 exo2tal /purchaseticket talus Exordium talus Talus_Imperial_Outpost single;
+```
+
+### References
+TODO: Add References

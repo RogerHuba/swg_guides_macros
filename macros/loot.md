@@ -1,4 +1,4 @@
-# Script Name
+# Macro to do a continious loot (Good Solo or in Group)
 loot
 
 ## DescriptionMacro
@@ -12,4 +12,5 @@ This macro will loot the corpse you currently have selected, followed by any cor
 /pause .3;
 /m loot;
 ```
-
+#### References
+TODO: Add a reference

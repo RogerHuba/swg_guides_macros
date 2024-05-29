@@ -31,3 +31,9 @@
 | Mind         | 300 | 1000 |       |
 | Focus        | 300 | 500  |       |
 | Willpower    | 700 | 900  |       |
+
+TODO: Add Other Races and Ideals for Professions
+
+### References
+TODO: Add References
+

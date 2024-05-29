@@ -1,8 +1,15 @@
+# Macro to do Medical Foraging
 
-name: medforage
+## Description
 
-```
+
+### Macro: medforage
+
+```text
 /medicalforage;
 /pause 10;
-/macro medforage;
+/m medforage;
 ```
+
+#### References
+TODO: Add a reference
