@@ -1,4 +1,4 @@
-# Auto Invite Macro
+# Macro Name" Auto Invite Macro
 
 ## Alias
 

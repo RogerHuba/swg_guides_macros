@@ -1,4 +1,4 @@
-# Combined Loot & Harvest
+# Macro Name: Loot & Harvest
 
 ## Introduction
 Built on the shoulders of wookies. 

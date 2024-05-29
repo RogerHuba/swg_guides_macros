@@ -1,4 +1,4 @@
-# AFK Combat
+# Macro Name: AFK Combat
 
 ## Introduction
 Built on the shoulders of wookies. 
