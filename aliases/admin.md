@@ -11,4 +11,6 @@ Siymon
 
 #### Alias Text
 
+```text
 admin /pause 0.25;/setpermission admin {name};/setpermission admin {name};/pause 1;/nameStructure \#000000\#ff0000YourNameOfTheStructure;
+```

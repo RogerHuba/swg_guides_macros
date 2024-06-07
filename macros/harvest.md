@@ -15,7 +15,7 @@ This macro will harvest the corpse you currently have selected, followed by any 
 
 You can replace `harvest` and `harvest corpse` with `harvest <resource type>` and `harvest corpse <resource type>` where `<resource type` can be `meat`, `bone` or `hide` if you want to gather a specific resource.
 
-### justHarvestMeat
+### `justHarvestMeat`
 ```
 /harvest meat;
 /harvest corpse meat;
@@ -23,7 +23,7 @@ You can replace `harvest` and `harvest corpse` with `harvest <resource type>` an
 /m justHarvestMeat;
 ```
 
-### harvest
+### Macro: `harvest`
 
 The old style macro, will only harvest what's clicked. Replace `<resource type>` with `meat`, `bone` or `hide` as required. The following `/harvest` is a catchall in case the mob you are harvesting does not contain `<resource type>`.
 

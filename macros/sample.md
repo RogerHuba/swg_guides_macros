@@ -7,7 +7,7 @@ In order to use either of these macros you will need to manually survey for the 
 
 If your action secondaries are 400+ you won't need to sit, which can stop your character wondering the landscape:
 
-### Macro: sample1
+### Macro: `sample1`
 
 ```text
 /stand; 
@@ -22,7 +22,7 @@ If your action secondaries are 400+ you won't need to sit, which can stop your c
 /m sample1;
 ```
 
-### Macro: sample2
+### Macro: `sample2`
 
 ```text
 /stand; 

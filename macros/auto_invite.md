@@ -11,7 +11,7 @@ Write this into your chat bar and run once to create the entry in the `alias.txt
 /alias ll /invite
 ```
 
-### Macro `invite`
+### Macro: `invite`
 Replace `[your name]` with your characters first name, delete the brackets.
 
 ```text

@@ -3,7 +3,7 @@
 ## Description
 
 
-### Macro: medforage
+### Macro: `medforage`
 
 ```text
 /medicalforage;

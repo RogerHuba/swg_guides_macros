@@ -3,7 +3,7 @@
 ## Description
 This macro will find a target every 15 seconds and throw an intimidate at it. It is not intended for at keyboard combat automation. It's intended use is afk farming static spawns outside of majour NPC cities. No buffs required, but reasonable armour minisuit probably mandatory. 
 
-### Macro: afkstatic
+### Macro: `afkstatic`
 ```
 /stand;
 /ui action untarget;
@@ -16,7 +16,7 @@ This macro will find a target every 15 seconds and throw an intimidate at it. It
 /m afkstatic;
 ```
 
-### Macroafk
+### Macro: `fightafk`
 
 This macro will find the closest target every 2 seconds. 
 
@@ -28,7 +28,7 @@ Because the macro always targets you first at the start of the loop, the cycleTa
 /ui action cycleTargetOutward;
 /attack;
 /pause 2;
-/macro afk;
+/macro fightafk;
 ```
 
 I should try `/ui action untarget` in place of `/ui action targetSelf` as apparently this will not drop the current target if it's still alive!
