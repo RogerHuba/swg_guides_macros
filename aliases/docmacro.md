@@ -13,14 +13,14 @@ Siymon
 [broadcast] /m broadcast
 ```
 
-- This alias will backspace the curser to get it at the right position. This must be modified specifically for your character based the name of the channel you create.
+- This alias will backspace the curser to get it at the right position. This must be modified specifically for your character based the name of the channel you create. This will do 20 backspaces
 ```text
 [bs20] /ui action chatBackspace;/ui action chatBackspace;/ui action chatBackspace;/ui action chatBackspace;/ui action chatBackspace;/ui action chatBackspace;/ui action chatBackspace;/ui action chatBackspace;/ui action chatBackspace;/ui action chatBackspace;/ui action chatBackspace;/ui action chatBackspace;/ui action chatBackspace;/ui action chatBackspace;/ui action chatBackspace;/ui action chatBackspace;/ui action chatBackspace;/ui action chatBackspace;/ui action chatBackspace;/ui action chatBackspace;
 ```
 
-- This alias will clear your tell queue and also clear the chatlog text file.
+- This alias will clear your tell queue and also clear the chatlog text file. Replace {name} with your characters name (removing the brackets in th text).
 ```text
-[clear] /tell jeddah ----------MESSAGES-CLEARED----------;
+[clear] /tell {name} ----------MESSAGES-CLEARED----------;
 ```
 
 This alias will be used to create the macro for the buff commands. When the chat sees the `[cmd]` text it will replace it with the `/m` which will start the execution of a macro. 
