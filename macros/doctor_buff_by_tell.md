@@ -1,15 +1,18 @@
 # Macro to Buff by tell
 
 ## Description
+
 This macro will doctor buff on tell. Needs improvement for eating bivoli and havla. 
 
 ## Copy & Paste
+
 Star Wars Galaxies allows you to bind copy and paste in `Options > Controls > Keymap > chat (tab)` you can bind keys to `Chat Edit Copy, Chat Edit Cut, Chat Edit Paste`. If you bind a key for `Chat Edit Paste` you can copy the alias's and macro's below and use your keybind to paste them into the Star Wars Galaxies client (both the in-game macro editor, and the chat window).
 
 ## Alias
+
 Run each of the alias lines in your chat window. You only need to run the alias's once per session. Replace `<name>` with your character's name.
 
-```
+```swg
 /alias :a /alias <name> /ui action toolbarPane04;/pause 4;/ui action toolbarPane05
 
 /alias :b /alias <name> /setmood
@@ -18,11 +21,14 @@ Run each of the alias lines in your chat window. You only need to run the alias'
 ```
 
 ## Macro
+
 Create the following macros exactly as written. Replace `<name>` with your character's name.
 
 ### docStart
+
 Starts macros running.
-``` 
+
+```swg
 /:a;
 /pause 1;
 /macro docAdvertise;
@@ -34,18 +40,20 @@ Starts macros running.
 ```
 
 ### docAdvertise
+
 Respect the server spam rules and don't advertise more often than every 3 minutes. 
 
- ```
+```swg
 /Recite Now buffing. Please see my bio for buffing instructions.;
 /pause 180;
 /m docAdvertise;
 ```
 
 ### docResponse
+
 Checks to see if someone sent a tell. Replace`<name>` with your character's name.
 
-```
+```swg
 /ui action startChatReply;
 /ui action chatCursorHome;
 /ui action chatCursorRight;
@@ -64,9 +72,10 @@ Checks to see if someone sent a tell. Replace`<name>` with your character's name
 ```
 
 ### docBuff
+
 Runs buff cycle. Replace `/tar Bacta;` with the name of a named, static item placed in the building. I use a crafted `Action Wound Medpack` with a custom name `Bacta` placed next to my doctor (it looks like a small bacta-tank).
 
-```
+```swg
 /:b;
 /afk;
 /pause .5;
@@ -110,6 +119,7 @@ Runs buff cycle. Replace `/tar Bacta;` with the name of a named, static item pla
 ## UI settings
 
 ### Toolbar
+
 The `toolbarPane` counts from 0 - 5 (representing bar's 1 to 6). This can be confusing. The `toolbarSlot` counts from 0 - 23 (0 - 11 being the 12 buttons on the top row, and 12 -23 representing the 12 buttons on the bottom row). This can also be confusing.
 
 * Drag `docBuff` macro to `toolbarPane05` > `toolbarSlot11` (bar 6, button 12 of the top row)
@@ -122,9 +132,10 @@ The `toolbarPane` counts from 0 - 5 (representing bar's 1 to 6). This can be con
 * Ensure `toolbarPane04` > `toolbarSlot08` is empty (bar 5, button 08). 
 
 ### Bio
+
 In `Community > Character > Biography` set an appropriate message.
 
-```
+```swg
 Send me a tell for buffs. No need to drop group!
 
 If I fail to buff you, please soft-log and try again.
@@ -133,34 +144,41 @@ Doc buffs require a significant up-front investment. If you appreciate the servi
 ```
 
 ### AFK
+
 Ensure `Options > AFK > Auto AFK enabled` is not checked.
 
 In `Options > AFK > Auto-Response Message` set an appropriate response.
 
-```
+```swg
 I am currently in the middle of a buff session. Please send a tell when this session is over.  
   
 Thank you for your support!
 ```
 
 ### Compulsory item placement (Bacta)
+
 I have crafted a Healthpack and named it "Bacta" as my no-buff target. 
 
 ### Droid
+
 You want a droid deployed with battery power and a Medical Module Rating: 110. It does not need to be grouped.
 
 ## Food
-Food is critical to a doctor maximizing the application of their buffs. 
+
+Food is critical to a doctor maximizing the application of their buffs.
 
 ### Bivoli
+
 Bivoli increses your Wound Treatment Skill Mod. No change is necessary to benefit from Bivoli as it increases the potency of the buffs.
 
 ### Havla
+
 Havla increases your Wound Treatment Speed Skill Mod. The above macro does not yet have optimised timings for Havla consumption. You will need to adjust the timings in `docBuff` between all the `healEnhance` calls to take advantage. 
 
 ### References
-- [Mistress Aerea Buff by tell macro](https://www.swgemu.com/forums/showthread.php?t=128123)
-- [nunzio99 Who are your tippers](https://www.swgemu.com/forums/showthread.php?t=205263)
-- [Astin Larry's Doctor Macro](https://www.swgemu.com/forums/showthread.php?t=214152)
-- [Xtura Seska's Doctor Guide: Buffing for Free (for tips)](https://www.swgemu.com/forums/showthread.php?t=47785)
-- [NaTaS Buff by Tell Macro](https://revelationonline.net/forums/viewtopic.php?t=126)
+
+* [Mistress Aerea Buff by tell macro](https://www.swgemu.com/forums/showthread.php?t=128123)
+* [nunzio99 Who are your tippers](https://www.swgemu.com/forums/showthread.php?t=205263)
+* [Astin Larry's Doctor Macro](https://www.swgemu.com/forums/showthread.php?t=214152)
+* [Xtura Seska's Doctor Guide: Buffing for Free (for tips)](https://www.swgemu.com/forums/showthread.php?t=47785)
+* [NaTaS Buff by Tell Macro](https://revelationonline.net/forums/viewtopic.php?t=126)

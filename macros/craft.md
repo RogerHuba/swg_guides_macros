@@ -2,7 +2,7 @@
 
 ## Description
 
-## Macro: crafting
+### Macro: crafting
 
 This will fire a crafting tool in the first slot on the toolbar `toolbarSlot00`. It will then load the schematic found in slot 3 (this will vary based on your professions, what type of crafting tool you are using, and whether you have set the UI to auto-sort your schematics).
 
@@ -19,3 +19,5 @@ This will fire a crafting tool in the first slot on the toolbar `toolbarSlot00`.
 ```
 
 #### References
+
+TODO: Add

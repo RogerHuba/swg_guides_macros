@@ -2,7 +2,6 @@
 
 ## Description
 
-
 ### Macro: `medforage`
 
 ```text
@@ -12,4 +11,5 @@
 ```
 
 #### References
+
 TODO: Add a reference

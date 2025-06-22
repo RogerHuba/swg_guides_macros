@@ -1,6 +1,8 @@
 # The Warren
 
 ## Description
+
+---
 `Location` : The Warren is a POI on Dantooine. It is located at /way -555 -3825.
 
 The Warren is a large theme park that can be accomplished rather quickly – being the second fastest theme park after Nym’s. Most do the Warren because you can receive two badges (Compassion and Imperial Hero) which count as two separate content badges (out of the three you need for Jedi).
@@ -10,12 +12,17 @@ To receive the “Imperial Hero” badge, you will need one Encryption Key, and 
 ### Walkthrough
 
 #### Entering the Warren
+
+---
+
 - To begin this theme park, you must talk to the escapee outside of the Warren to get the passkey. They can be found at /way -558 -3735.
 - After talking with them, the escapee should give you the `Main Entry Passkey` to enter the Warren.
 - Upon entering the Warren, the first room you’ll find yourself in is filled with Huurton Howlers.
 - Kill them and continue straight and down the hallway into the four doors room.
 
 #### Passkeys
+
+---
 Note: Upon pickup of the required items, they are set on a respawn timer.
 
 - Go to the farthest door on your right and follow it until you find a broken droideka at a T intersection.
@@ -24,6 +31,8 @@ Note: Upon pickup of the required items, they are set on a respawn timer.
 - Next, look for a lootable Locker, MagSeal Container, and Metal Chest. They should have the other three elevator passkeys in them.
 
 #### Deactivating the Turret
+
+---
 After you have looted everything you need in the passkeys room:
 
 - Head back out the door, go straight down the hall and to the `RIGHT`.
@@ -40,6 +49,9 @@ After you have looted everything you need in the passkeys room:
 - `To check` – you can inspect the Data Terminal. If it says the status is DEACTIVATED, you’re good to go. If it still shows it is ACTIVATED, inspect the Turret Sequence disk again and make sure the code didn’t change.
 
 #### Activating the Elevators
+
+---
+
 - Head out of the room and back into the droid room.
 - Hug the right wall and enter the farthest door to your `RIGHT`.
 - Go straight to the droid room’s elevator.
@@ -50,6 +62,8 @@ After you have looted everything you need in the passkeys room:
 - There are four `Passkey Terminals` around the room. Double-click each one to activate them.
 
 #### Downloading the Evidence Pt. 1
+
+---
 Leave the room and go back to the elevator.
 Take the elevator `DOWN`.
 Run through the door to re-enter the droid room.
@@ -72,6 +86,8 @@ Download the evidence from the terminal. This is the first evidence.
 To check – open up your Datapad and go to the Data tab. You should see the Evidence Disk. (If you inspect the disk, it should read Experiment #1046.)
 
 #### Compassion
+
+---
 Note: You must have the letter in your inventory prior to speaking to her. If you don’t, you will not receive the badge.
 
 - From the Data Terminal, move a bit to the right, and go through the door across the room that you entered from.
@@ -88,6 +104,9 @@ Note: You must have the letter in your inventory prior to speaking to her. If yo
 - Speak to her. After conversing, you will receive the “Warren: Compassion” badge.
 
 #### Downloading the Evidence Pt. 2
+
+---
+
 - Exit the room, follow the hallway to the small open room, and take the door on your `RIGHT`.
 - Continue straight through the door and go back around the Binary Load Lifter droid.
 - Go through the door you originally came from and head straight through the hallway. You should be able to either go left or right – go `RIGHT`.
@@ -166,6 +185,8 @@ Note: You must have the letter in your inventory prior to speaking to her. If yo
 - `To check` – open up your Datapad and go to the Data tab. You should see a fourth Evidence Disk. (If you inspect the disk, it should read Entry 1784.)
 
 #### Imperial Hero
+
+---
 Head back through the door you came from. If you head straight, you will meet the boss of the Warren, Boris Teraud. You don’t need to kill him to get the Imperial Hero badge.
 In the hallway, turn `LEFT`.
 You should find yourself back in the third X room.
@@ -191,4 +212,5 @@ Speak to Captain Heff.
 Upon telling Captain Heff that you have evidence, you will automatically receive the “Imperial Hero” badge, and the data items will be removed from your Datapad. The items in your inventory will remain in your inventory until you delete them.
 
 ##### Reference
+
 []Infinity Walkthrough](https://www.swginfinity.com/guides/the-warren/)

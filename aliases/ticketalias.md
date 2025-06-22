@@ -1,15 +1,16 @@
 # Alias Name: travel
 
 ## Author
+
 Siymon altered from internet and Imperial Discord
 
 ### Description
+
 - This is an alias list that will buy tickets
 - Place the text below into your alias.txt file. On restart of client, the new alieas can be executed by running `/bes2the`. This will buy a ticket from Bestine to Theed.
 - The `/aa` will execute the boarding procedure for the ticket.
 
-
-```text
+```swg
 aa /bo tra;
 bes2the /purchaseticket tatooine Bestine_Starport naboo Theed_Spaceport single;
 bes2ker /purchaseticket tatooine Bestine_Starport naboo Keren_Starport single;
@@ -366,4 +367,5 @@ exo2tal /purchaseticket talus Exordium talus Talus_Imperial_Outpost single;
 ```
 
 ### References
+
 TODO: Add References

@@ -1,4 +1,5 @@
 # Siymon's Macro File
+
 - This is a copy of my macro file. 
 - When I want to add new macros, I update this file, then replace text in macro file.
 - This allows me to keep things in some type of order and makes it easier to find and edit on the fly.
@@ -20,8 +21,8 @@ SWORDS_SPIN_CYCLE spin #ffffff /pause 0.25;/unarmedspinattack2;/pause 1;/m TKM-S
 SWORDS_COMBO spin #ffffff /pause 0.25;/intimidate1;/melee2harea3;/melee2hsweep2;
 
 POLEARM_SPIN_SAME spin #ffffff /pause 0.25;/polearmspinattack2;/pause 1.5;/m POLEARM_SPIN_SAME;
-POLEARM_SPIN_CYCLE spin #ffffff /pause 0.25;/cto;/pause .3;/unarmedspinattack2;/pause .8;/m TKM_SPIN_CYCLE;
-POLEARM_COMBO spin #ffffff /pause 0.25;/intimidate;/unarmedblind1;/unarmedstun1;/unarmeddizzy1;/unarmedknockdown2;
+POLEARM_SPIN_CYCLE spin #ffffff /pause 0.25;/cto;/påause .3;/unarmedspinattack2;/pause .8;/m TKM_SPIN_CYCLE;
+POLEARM_COMBO spin #ffffff /pause 0.25;/intimidate;/unaårmedblind1;/unarmedstun1;/unarmeddizzy1;/unarmedknockdown2;
 POLEARM_GRIND spin #ffffff /pause 0.25;/polearmspinattack2;/pause 1.5;/m POLEARM_GRIND;
 
 FENCER_SPIN_SAME spin #ffffff /pause 0.25;/melee1hspinattack2;/pause 2;/m FENCER_SPIN_SAME;
